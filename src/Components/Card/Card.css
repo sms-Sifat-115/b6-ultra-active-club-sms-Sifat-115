@@ -1,0 +1,36 @@
+.card {
+    width: 350px;
+    height: 550px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+}
+.card img {
+    width: 346px;
+    height: 316px;
+}
+.card-info{
+    margin: 0px 14px;
+    margin-top: 5px;
+
+}
+.card-name {
+    font-family: 'Lato';
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+}
+.btn-cart{
+    width: 350px;
+    background-color: rgba(0, 0, 255, 0.918);
+    border: none;
+    padding: 5px;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0px;
+
+}
+.btn-cart:hover{
+    color: white;
+    background-color: greenyellow;
+}

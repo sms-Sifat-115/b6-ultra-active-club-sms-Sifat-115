@@ -4,10 +4,10 @@ import './Card.css';
 const Card = ({resource, handleAddToCart}) => {
     const {name, img, sets, time} = resource; 
     return (
-        <div>
+        <div className='card'>
             <img src={img} alt="" />
-            <div>
-                <p>Name: {name}</p>
+            <div className='card-info'>
+                <p className='card-name'>Name: {name}</p>
                 <p>Sets: {sets}</p>
                 <p>Time: {time}</p>
             </div>
