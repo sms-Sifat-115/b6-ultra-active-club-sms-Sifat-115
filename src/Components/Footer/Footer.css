@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    background-color: black;
+    color: lightgray;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+.footer h6 {
+    margin: 5px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.brand p {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding-left: 10px;
+}

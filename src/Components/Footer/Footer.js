@@ -1,23 +1,20 @@
 import React from 'react';
+import './Footer.css'
 import favicon from '../../Resources/favicon.ico'
-import './Header.css'
 
-
-const Header = () => {
+const Footer = () => {
     return (
-        <div className='header'>
+        <div className='footer'>
             <div className='brand'>
                 <img src= {favicon} alt="" width="30" height="24" class="d-inline-block align-text-top"/>
                 <p><i>Body Master </i></p>
             </div>
             <div>
-                <a href="/home">Home</a>
-                <a href="/about">About</a>
-                <a href="/blogs">Blogs</a>
-                <a href="/contacts">Contacts</a>
+                <h6>All Rights are Reserved to Body Master Pvt. LTD</h6>
+                <p>Montana, USA || @2022</p>
             </div>
         </div>
     );
 };
 
-export default Header;
+export default Footer;
