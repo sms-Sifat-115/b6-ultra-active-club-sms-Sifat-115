@@ -1,13 +1,17 @@
 .card {
     width: 350px;
-    height: 550px;
-    border: 1px solid #95A0A7;
+    height: 500px;
     border-radius: 8px;
     position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 .card img {
-    width: 346px;
-    height: 316px;
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
 }
 .card-info{
     margin: 0px 14px;
@@ -22,21 +26,26 @@
 }
 .btn-cart{
     width: 350px;
-    background-color: rgba(0, 0, 255, 0.918);
+    background-color: red;
+    color: white;
     border: none;
-    padding: 5px;
-    border-radius: 0px 0px 8px 8px;
-    position: absolute;
-    bottom: 0px;
+    padding: 3px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 8px;
+    
+
 
 }
 .btn-cart:hover{
-    color: white;
-    background-color: greenyellow;
+    color: red;
+    background-color: white;
+    border: 2px solid red;
 }
 @media screen and (max-width:1100px) {
     .card{
         width: 250px;
+        margin-left: 25px;
     }
     .card  img {
         width: 216px;
@@ -44,16 +53,20 @@
     }
     .btn-cart{
         position: relative;
+        width: 250px;
     }
 }
 @media screen and (max-width:480px) {
     .card {
-        width: 250px;
+        width: 100%;
         margin-left: 10px;
     }
     .card  img {
         width: 216px;
         height: 216px;
+    }
+    .btn-cart {
+        width:220px;
     }
     
 }

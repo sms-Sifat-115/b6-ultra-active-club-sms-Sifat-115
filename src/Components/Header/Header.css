@@ -25,11 +25,23 @@
 .header a:hover {
     color: red;
 }
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+#heading {
+    text-align: left;
+    margin-left: 5%;
+}
 
 @media screen and (max-width:480px) {
     .header {
         flex-direction: column;
         justify-content: center;
         padding: 5px;
+    }
+    #heading {
+        text-align: center;
+        margin-left: 0%;
     }
 }

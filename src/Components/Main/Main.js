@@ -8,7 +8,7 @@ const Main = () => {
     const [resources, setResources] = useState ([]);
     const [cart, setCart] = useState([]);
     useEffect ( () => {
-        fetch ('../../../public/resources.json')
+        fetch ('resources.json')
         .then(res => res.json())
         .then (data => setResources(data));
     }, []);

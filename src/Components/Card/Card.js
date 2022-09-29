@@ -9,7 +9,7 @@ const Card = ({resource, handleAddToCart}) => {
             <div className='card-info'>
                 <p className='card-name'>Name: {name}</p>
                 <p>Sets: {sets}</p>
-                <p>Time: {time}</p>
+                <p>Time: {time} mins</p>
             </div>
             <button onClick={ () => {handleAddToCart(resource)}} className='btn-cart'>
                 <p>Add to card</p>

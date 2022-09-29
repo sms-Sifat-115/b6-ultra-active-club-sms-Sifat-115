@@ -1,55 +1,55 @@
 // use local storage to manage cart data
 
 const addToDb = id =>{
-    let shoppingCart = {};
+    let resources = {};
 
     //get the shopping cart from local storage
-    const storedCart = localStorage.getItem('shopping-cart');
+    const storedCart = localStorage.getItem('resources');
     if(storedCart){
-        shoppingCart = JSON.parse(storedCart);
+        resources = JSON.parse(storedCart);
     }
 
     // add quantity
-    const quantity = shoppingCart[id];
+    const quantity = resources[id];
     if(quantity){
         const newQuantity = quantity + 1;
-        shoppingCart[id] = newQuantity;
+        resources[id] = newQuantity;
     }
     else{
-        shoppingCart[id] = 1;
+        resources[id] = 1;
     }
-    localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
+    localStorage.setItem('resources', JSON.stringify(resources));
 }
  
 const getStoredCart = () => {
-    let shoppingCart = {};
+    let resources = {};
 
     //get the shopping cart from local storage
-    const storedCart = localStorage.getItem('shopping-cart');
+    const storedCart = localStorage.getItem('resources');
     if(storedCart){
-        shoppingCart = JSON.parse(storedCart);
+        resources = JSON.parse(storedCart);
     }
-    return shoppingCart;
+    return resources;
 }
 
 const removeFromDb = id =>{
-    const storedCart = localStorage.getItem('shopping-cart');
+    const storedCart = localStorage.getItem('resources');
     if(storedCart){
-        const shoppingCart = JSON.parse(storedCart);
-        if(id in shoppingCart){
-            delete shoppingCart[id];
-            localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
+        const resources = JSON.parse(storedCart);
+        if(id in resources){
+            delete resources[id];
+            localStorage.setItem('resources', JSON.stringify(resources));
         }
     }
 }
 
-const deleteShoppingCart = () =>{
-    localStorage.removeItem('shopping-cart');
+const deleteresources = () =>{
+    localStorage.removeItem('resources');
 }
 
 export {
     addToDb, 
     removeFromDb,
     getStoredCart,
-    deleteShoppingCart
+    deleteresources
 }
