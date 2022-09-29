@@ -1,0 +1,13 @@
+.blog-container {
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    border: 2px solid lawngreen;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.blog {
+   text-align: justify; 
+   padding-left: 15px;
+   padding-right: 15px;
+}

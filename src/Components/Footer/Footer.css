@@ -2,9 +2,8 @@
     width: 100%;
     background-color: black;
     color: lightgray;
-    position: fixed;
-    bottom: 0;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     text-align: center;
 }
 .footer h6 {

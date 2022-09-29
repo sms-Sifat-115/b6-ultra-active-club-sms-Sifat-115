@@ -1,0 +1,65 @@
+[
+    {
+        "id" : 1,
+        "name" : "Push-ups",
+        "time" : 10,
+        "sets" : 3,
+        "img" : "https://th.bing.com/th/id/OIP.Jqy4vSMEG4_foq884y2cxgHaD4?pid=ImgDet&rs=1"
+    },
+    {
+        "id" : 2,
+        "name" : "Squats",
+        "time" : 20,
+        "sets" : 4,
+        "img" : "https://th.bing.com/th/id/OIP.GWvz8o6UxblWZuptJTtpLwHaFD?pid=ImgDet&rs=1"
+    },
+    {
+        "id" : 3,
+        "name" : "Running",
+        "time" : 30,
+        "sets" : 3,
+        "img" : "https://th.bing.com/th/id/R.c3bd7ed67416f225c86b114c16983b8a?rik=auDaXQCA4J7BwQ&pid=ImgRaw&r=0"
+    },
+    {
+        "id" : 4,
+        "name" : "Mason Twist",
+        "time" : 15,
+        "sets" : 2,
+        "img" : "https://th.bing.com/th/id/R.722c8b2720a1d67e52cef335d3f670c6?rik=Ax1IS4R%2bVAtj9A&riu=http%3a%2f%2fdawnastone.com%2fwp-content%2fuploads%2f2014%2f01%2fMason-Twist001-copy.jpg&ehk=4DMKceFFO9uLMKiMBd2Grnc%2f78AsnRqkrNeq%2bjjp7mw%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        "id" : 5,
+        "name" : "Plank",
+        "time" : 5,
+        "sets" : 3,
+        "img" : "https://th.bing.com/th/id/OIP.UIa7j9rZoFr483PKMdEJ4AHaFL?pid=ImgDet&rs=1"
+    },
+    {
+        "id" : 6,
+        "name" : "Hip-hinge",
+        "time" : 10,
+        "sets" : 4,
+        "img" : "https://th.bing.com/th/id/OIP.PF4drDVBOqMNIofld9J8NAHaE8?pid=ImgDet&rs=1"
+    },
+    {
+        "id" : "7",
+        "name" : "Jumping Jacks",
+        "time" : "15 mins",
+        "sets" : "5",
+        "img" : "https://www.deportesaludable.com/wp-content/uploads/2020/05/Jumping-jacks-e1588866549535.jpg"
+    },
+    {
+        "id" : 8,
+        "name" : "Burpees",
+        "time" : 10,
+        "sets" : 2,
+        "img" : "https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/burpee-1109.jpg?itok=nrqgY_z_&timestamp=1493234965"
+    },
+    {
+        "id" : 9,
+        "name" : "Crunches",
+        "time" : 9,
+        "sets" : 1,
+        "img" : "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/B04Gfy1teiz3sdqe6/videoblocks-woman-doing-abdominal-crunches-exercise-on-the-fitness-mat-in-summer-park-in-slow-motion-at-sunset_hc-r3_gdrg_thumbnail-1080_01.png"
+    }
+]

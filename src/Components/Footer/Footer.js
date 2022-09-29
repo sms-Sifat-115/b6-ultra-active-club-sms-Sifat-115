@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='brand'>
-                <img src= {favicon} alt="" width="30" height="24" class="d-inline-block align-text-top"/>
+                <img src= {favicon} alt="" width="30" height="24"/>
                 <p><i>Body Master </i></p>
             </div>
             <div>

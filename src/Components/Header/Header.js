@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='brand'>
-                <img src= {favicon} alt="" width="30" height="24" class="d-inline-block align-text-top"/>
+                <img src= {favicon} alt="" width="30" height="24"/>
                 <p><i>Body Master </i></p>
             </div>
             <div>
